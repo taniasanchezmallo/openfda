@@ -243,4 +243,4 @@ try:
     httpd.serve_forever() #Línea para que empiece a funcionr el programa
 except KeyboardInterrupt:
     print("El programa se ha interrumpido")
-    httpd.httpclose
+    httpd.close
